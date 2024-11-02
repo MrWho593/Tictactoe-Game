@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.TicTacToe" parent="Base.Theme.TicTacToe" />
+    <style name="Theme.App.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    
 </resources>

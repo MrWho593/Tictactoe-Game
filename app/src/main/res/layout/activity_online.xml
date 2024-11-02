@@ -8,27 +8,26 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/app_name"
-        android:text="Tic Tac Toe"
-        android:layout_centerHorizontal="true"
+        android:id="@+id/play_online"
+        android:text="Play Online"
         android:textStyle="bold"
-        android:textSize="40sp"
+        android:textSize="28sp"
         android:layout_margin="8dp"
+        android:layout_centerHorizontal="true"
         android:padding="8dp"/>
 
     <TextView
-        android:id="@+id/play_offline_btn"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/app_name"
+        android:id="@+id/createOnlineBtn"
+        android:layout_below="@id/play_online"
         android:background="@drawable/button_background"
-        android:text="Play Offline"
-        android:textStyle="bold"
+        android:text="Get Server Code"
         android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:textSize="16sp"
         android:gravity="center"
         android:layout_centerHorizontal="true"
@@ -39,21 +38,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/or_text"
-        android:layout_below="@id/play_offline_btn"
+        android:layout_below="@id/createOnlineBtn"
         android:text="Or"
-        android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:textSize="30sp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
         android:layout_margin="8dp"
         android:padding="8dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameIdInput"
+        android:layout_below="@id/or_text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:hint="Enter Game ID"
+        android:layout_centerHorizontal="true"
+        />
 
     <TextView
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:id="@+id/play_online_btn"
-        android:layout_below="@id/or_text"
+        android:id="@+id/joinOnlineBtn"
+        android:layout_below="@id/gameIdInput"
         android:background="@drawable/button_background"
-        android:text="Play Online"
+        android:text="Join Game"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
         android:textSize="16sp"

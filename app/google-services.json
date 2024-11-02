@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "847648951461",
+    "project_id": "tic-tac-toe-4adc0",
+    "storage_bucket": "tic-tac-toe-4adc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847648951461:android:2abae75fd860a3c52dd14c",
+        "android_client_info": {
+          "package_name": "edu.naita.tictactoe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVow5yynPDOZm350mH4nLDpjiwt5mUXQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
